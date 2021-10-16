@@ -1,0 +1,24 @@
+ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  height: 50px;
+  line-height: 43px;
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+li {
+  float: left;
+  border-right: 1px solid #460346;
+}
+a {
+  display: block;
+  padding: 2 15px;
+  color: #fff;
+  text-decoration:none ;
+}
+a:hover {
+  background-color: crimson;
+}

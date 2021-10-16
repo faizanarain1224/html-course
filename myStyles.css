@@ -1,0 +1,35 @@
+/*
+
+    . (dot)  humara class selector hai matlb class ko uthata hai
+
+    # (hash) huamra id selector hai matlb id ko uthata hai
+
+
+*/
+
+.in-color-one {
+  background-image: url(https://picsum.photos/100);
+  width: 100px;
+  height: 100px;
+}
+
+.in-color-two {
+  background-color: rgb(50, 152, 211);
+  /* border: 2px solid red; */
+  width: 100px;
+  height: 100px;
+}
+
+#myBtn {
+  background-image: url(https://picsum.photos/75);
+  /* background-color: aqua; */
+  height: 75px;
+  width: 75px;
+}
+
+#myBtn:hover {
+  background-image: url(https://picsum.photos/100);
+  /* background-color: gray; */
+  height: 100px;
+  width: 100px;
+}

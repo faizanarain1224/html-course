@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title>Forms Example</title>
+</head>
+<body>
+    
+    <h1>Form Example</h1>
+    <!-- <form action="" method="" >
+
+    </form> -->
+
+<!-- IDE => intregrated DEveloperment Enrvormet -->
+
+<!-- input ek field bana deta hai jis me user kuch bhi type kar sakta hai
+    isme sab se phela attribure type hota hia jo ye batat hai ke is filed me kya likha ja sakta hai -->
+
+<!-- name ka attribute server use karta hai aur id ka attribute js use karti hai -->
+
+    <form action="/students" method="POST">
+
+            <label for="firstName">Name</label>
+            <input type="text" placeholder="Enter You Name" name="firstName" id="firstName" />
+            <br>
+            <label for="sirName">Sir Name</label>
+            <input type="text" placeholder="Enter Your SirName" name="sirName" id="sirName" />
+            
+            <br>
+            
+            <label for="country">Please Select a Country</label>
+            <select name="country" id="country">
+                <option value="P">Pak</option>
+                <option value="U">Usa</option>
+                <option value="I">India</option>
+            </select>
+            
+            <br>
+            
+            <!-- 
+            
+                    jab humara input type ka type "checkbox / radio" 
+                    humara "name" ka attribute as group name kam karta hai
+            
+                 -->
+            
+            <label for="hobbies">Please Select You Hobbies</label>
+            <br>
+            <label>Cricket</label>
+            <input type="checkbox" value="C" name="hobbies">
+            <br>
+            <label>Foot ball</label>
+            <input type="checkbox" value="F" name="hobbies">
+            <br>
+            <label>Swimming</label>
+            <input type="checkbox" value="S" name="hobbies">
+            
+            <br>
+            
+            <label for="intrest">Please Select You Intrest</label>
+            <br>
+            <label>Movies</label>
+            <input type="checkbox" value="M" name="intrest">
+            <br>
+            <label>Music</label>
+            <input type="checkbox" value="MS" name="intrest">
+            <br>
+            <label>Gamming</label>
+            <input type="checkbox" value="G" name="intrest">
+            
+            
+            <br>
+            
+            <label for="gender">Gender</label>
+            <br>
+            <label>Male</label>
+            <input type="radio" name="gender" value="M">
+            <br>
+            <label>Female</label>
+            <input type="radio" name="gender" value="F">
+            <br>
+            <label>Other</label>
+            <input type="radio" name="gender" value="O">
+            
+            <br>
+            <input type="password" placeholder="Enter your password" name="password" id="password">
+            
+            <!-- first way of submit button -->
+            <br>
+            <br>
+            <br>
+            
+            <!-- <input type="submit" value="Save"> -->
+            
+            <!--  second ways -->
+            
+            <button type="submit">
+                Login
+            </button>
+
+    </form>
+
+
+
+
+<!-- 
+    this is a black cat sitting on the wooden table. ->
+    
+    thisisablackcatsittingonthewoodentable
+
+    typing casses:
+    1 : snake case
+        eg: this_is_a_black_cat_sitting_on_the_wooden_table
+    2 : kabab case
+        eg: this-is-a-black-cat-sitting-on-the-wooden-table (bhot kam language ye support)
+    3: Pascal case
+        eg : ThisIsABlackCatSittingOnTheWoodenTable
+        eg : Name
+    4: camel case
+        eg : thisIsABlackCatSittingOnTheWoodenTable (90%)
+        eg : name
+
+ -->
+
+
+</body>
+</html>
